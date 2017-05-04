@@ -1,0 +1,45 @@
+body
+{
+    font-family:Calibri;
+}
+
+a
+{
+    text-decoration: none;
+    color:inherit;
+    
+}
+
+ul.menu li
+{
+    border-radius: 25px;
+    display: none;
+    padding:1em 1em 1em 1em;
+    border: 1px solid black;
+    background-color:darkgrey;
+}
+
+ul.menu li:first-child{
+    display: block;
+    border-top:0px;
+    padding-left:10px;
+}
+
+ul.menu:hover li
+{
+    display:block;
+}
+
+
+ul.menu:hover li:hover
+{
+    background-color: lightgrey;
+}
+
+ul.menu
+{
+    text-align: center;
+    width:15em;
+    padding-left:15px;
+    float:left;
+}

@@ -1,0 +1,77 @@
+body
+{
+    font-family: "Calibri";
+}
+
+h1
+{
+    text-align: center;
+    font-size: 3vw;
+}
+
+div
+{
+    text-align: center;
+}
+
+p
+{
+    margin:1px;
+    font-size:1vw;
+}
+
+p.mass
+{
+    text-align:right;
+}
+
+h2{
+    text-align:center;
+    margin:10px 0;
+    font-size:1.5vw;
+}
+
+table
+{
+    width:100%;
+}
+
+td
+{
+    width: 4%;
+}
+
+td.diatomic
+{
+    background-color: limegreen;
+}
+td.noble-gas{
+    background-color: lawngreen;
+}
+td.alkali-metal{
+    background-color: crimson;
+}
+td.alkaline-earth{
+   background-color: lightcoral;
+}
+td.metalloid{
+    background-color: lightblue;
+}
+td.nonmetal{
+    background-color: mediumspringgreen;
+}
+td.transition{
+    background-color: cyan;
+}
+td.other-metal{
+    background-color: goldenrod;
+}
+td.lanthanide{
+    background-color: lightskyblue;
+}
+td.actinide{
+    background-color: royalblue;
+}
+td.unknown{
+    background-color: lightgrey;
+ }

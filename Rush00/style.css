@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo');
+
+html {
+    height: 100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:lightblue;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    margin-left: 50%;
+    font-size:5vh;
+}
+
+header {
+    background-repeat: no-repeat;
+    width: auto;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+section > article {
+    height:70vh;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section > article > p{
+    font-size:4em;
+    text-transform: uppercase;
+    border:1px solid white;
+    width:70%;
+    margin:0 auto;
+    padding:5px;
+    margin-bottom:2vh;
+    background:rgba(0,0,0, .3);
+    font-family: 'Macondo', cursive;
+}
+
+/* will take color from parent and remove the underline */
+section > article > p > a{
+    color: inherit;
+    text-decoration: none;
+} 
+
+/* Add a black background color to the top navigation */
+.topnav {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    font-family: 'Macondo', cursive;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vh;
+    font-family: 'Macondo', cursive;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #fff;
+  text-shadow: 0 0 10px white;
+  background-color: #888;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+form{
+    color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    font-family: 'Macondo', cursive;
+    font-size: 17px;
+    color: white;
+}
+
+
+input[type=text]{
+    font-family: 'Macondo', cursive;
+    font-size: 17px;
+    color: white;
+    background-color: lightblue;
+}
+
+input[type=password]{
+    font-family: 'Macondo', cursive;
+    font-size: 17px;
+    color: white;
+    background-color: lightblue;
+}
+
+select
+{
+    display:hidden;
+}
+
+.logins{
+    float:right;
+}
+
+.product{
+    
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+background: rgb(179,220,237); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%) fixed; /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) fixed; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+/* remove dots on the side of our product list INSERT INTO products VALUES (null, 'gag', 'ff', 0.25, 'men', 'scarf'); */ 
+.product ul {
+  list-style-type: none;
+}
+
+#container{
+    font-size:0;
+    width:100vw;
+}
+
+
+.item{
+    color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    font-family: 'Macondo', cursive;
+    font-size: 17px;
+    color: white;
+    float:left;
+    padding-bottom:3vh;
+    padding-right:3vw;
+}
+
+@media screen and (max-width: 20vw) {
+    #container{
+        width:20vw;
+    }
+}
+
+@media screen and (min-width: 21vw) and (max-width: 40vw) {
+   #container{
+        width:40vw;
+    }
+}
+@media screen and (min-width: 41vw) and (max-width: 60vw) {
+   #container{
+        width:60vw;
+    }
+}
+@media screen and (min-width: 61vw) and (max-width: 80vw) {
+   #container{
+        width:80vw;
+    }
+}
+
+/* when click send id_product when clicking on 1 - + */
+
+
+/* spring collection slideshow */
+.fadein { position:relative; width:500px; height:332px;}
+.fadein img { position:absolute; padding-top:40px; padding-left:40px; border-radius:50px; border:20px; border-color:white; margin-left: auto;
+    margin-right: auto;
+    display: block;}
+
+.button{
+       color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    font-family: 'Macondo', cursive;
+    font-size: 3vh;
+    color: white;
+    float:left;
+    padding-right:2px;
+    background:royalblue;
+}
+
+.button hover{
+        color: #fff;
+  text-shadow: 0 0 10px white;
+  background-color: #888;
+}
+
+span{
+      font-family: 'Macondo', cursive;
+    font-size: 3vmin;
+    color: black;
+    font-weight:bold;
+}
+
+#addprod{
+    padding-top:5vh;
+}
